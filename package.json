@@ -26,6 +26,8 @@
 	"scripts": {
 		"format": "biome format --write ./",
 		"format:ci": "biome format ./",
+		"lint": "biome lint --write ./",
+		"lint:ci": "biome lint ./",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"devDependencies": {
