@@ -1,0 +1,34 @@
+{
+	"name": "rs-wiki-dump",
+	"version": "0.1.0",
+	"description": "Tools for dumping contents from the Runescape wiki",
+	"engines": {
+		"node": "24",
+		"npm": "11"
+	},
+	"keywords": [
+		"runescape",
+		"wiki",
+		"dump"
+	],
+	"homepage": "https://github.com/Open592/rs-wiki-dump#readme",
+	"bugs": {
+		"url": "https://github.com/Open592/rs-wiki-dump/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Open592/rs-wiki-dump.git"
+	},
+	"license": "BSD-2-Clause",
+	"author": "Open592 Developer <uss@open592.com>",
+	"type": "module",
+	"main": "src/index.mjs",
+	"scripts": {
+		"format": "biome format --write ./",
+		"format:ci": "biome format ./",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.0.6"
+	}
+}
