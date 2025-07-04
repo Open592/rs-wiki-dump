@@ -28,7 +28,8 @@
 		"format:ci": "biome format ./",
 		"lint": "biome lint --write ./",
 		"lint:ci": "biome lint ./",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"fetch:allpages": "node src/index.mjs"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.0.6"
